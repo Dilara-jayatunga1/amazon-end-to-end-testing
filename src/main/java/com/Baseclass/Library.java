@@ -16,7 +16,7 @@ public class Library {
 	public static WebDriver driver;
 	public static Properties prop;
 	public void launchApplication() throws IOException{
-		FileInputStream input= new FileInputStream("/Amazon_EndtoEndProject/src/test/resources/Properties/Config.Property");
+		FileInputStream input= new FileInputStream("/Users/dilarajayatunga/eclipse-workspace/Amazon_EndtoEndProject/src/test/resources/Properties/Config.Property");
 		prop = new Properties();
 		prop.load(input);
 		
