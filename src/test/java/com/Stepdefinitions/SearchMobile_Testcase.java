@@ -32,7 +32,7 @@ public class SearchMobile_Testcase extends Library {
 
     @Given("User enter the Text in the Search Field")
     public void user_enter_the_text_in_the_search_field() {
-        sp.Search("Mobile");
+        sp.Search("Iphone 16 pro");
     }
 
     @When("click the search button")
